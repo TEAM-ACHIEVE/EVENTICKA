@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+.container-fluid{
+    padding: 2% 5%
+}
+.navbar-brand{
+    margin: auto;
+}

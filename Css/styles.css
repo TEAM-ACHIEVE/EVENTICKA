@@ -1,9 +1,42 @@
 body{
     text-align: center;
+    background-color: #f8f9fa;
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    
 }
+
+/* nav section */
+
 .container-fluid{
     padding: 2% 5%
 }
 .navbar-brand{
     margin: auto;
+    font-family: 'Ubuntu';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nav-btn{
+    margin: auto 20px;
+}
+.nav-btn:hover{
+    background-color: rgb(187, 184, 184);
+}
+
+/* info section 1 */
+.container-fluid-is1{
+    padding: 12%
+}
+.is1-image{
+    width: 75%;
+}
+.big-heading {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+    color: black;
 }

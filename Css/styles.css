@@ -3,8 +3,7 @@ body{
     background-color: #f8f9fa;
     color: black;
     font-family: 'Montserrat',sans-serif;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 /* nav section */
@@ -17,6 +16,7 @@ body{
     font-family: 'Ubuntu';
     font-size: 1.3rem;
     font-weight: bold;
+    width: 200px;
 }
 .nav-btn{
     margin: auto 20px;
@@ -30,7 +30,8 @@ body{
     padding: 12%
 }
 .is1-image{
-    width: 75%;
+    width: 90%;
+    fill: black;
 }
 .big-heading {
     font-family: 'Montserrat-black', sans-serif;

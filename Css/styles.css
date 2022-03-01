@@ -85,3 +85,11 @@ body{
 #mover1{
     display: none;
 }
+
+/* FOOTER SECTION */
+
+.footer-icon{
+    color: #000000;
+    font-size: 1rem;
+    margin: 20px 10px;
+} 

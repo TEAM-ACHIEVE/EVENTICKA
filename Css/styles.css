@@ -34,7 +34,7 @@ body{
     margin:auto 8px;
 }
 .bi{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 .profile-icon{
     width: 8%;
@@ -68,6 +68,9 @@ body{
 .account-button{
     margin: 20px;
 }
+.carousel-inner{
+    text-align: center;
+}
 .slider-button{
     border: none;
     /* padding: 0; */
@@ -93,3 +96,33 @@ body{
     font-size: 1rem;
     margin: 20px 10px;
 } 
+
+@media (max-width: 990px){
+    .big-heading {
+        font-family: 'Montserrat-black', sans-serif;
+        font-size: 2.8rem;
+        line-height: 1.5;
+        font-weight: 900;
+        text-align: center;
+        color: black;
+    }
+    /* CALL TO ACTION section */
+    .big-heading3 {
+        font-family: 'Montserrat-black', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.4;
+        font-weight: 800;
+        text-align: center;
+        color: black;
+        padding-top: 10%;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+
+    .card{
+        text-align: center;
+        margin: 20px auto;
+    }
+}

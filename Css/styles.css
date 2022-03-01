@@ -69,11 +69,12 @@ body{
     margin: 20px;
 }
 .slider-button{
+    border: none;
     /* padding: 0; */
-    border-top: none;
+    /* border-top: none;
     border-left: none;
-    border-right: none;
-    border-bottom: solid;
+    border-right: none; */
+    /* border-bottom: solid; */
     margin:auto 60px;
     /* background: none; */
 }

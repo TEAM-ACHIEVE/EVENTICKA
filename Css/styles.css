@@ -57,3 +57,18 @@ body{
 .account-button{
     margin: 20px;
 }
+.slider-button{
+    /* padding: 0; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin:auto 60px;
+    /* background: none; */
+}
+#you, #localized{
+    display: none;
+}
+
+#mover1{
+    display: none;
+}

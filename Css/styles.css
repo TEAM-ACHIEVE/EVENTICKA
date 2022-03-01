@@ -7,16 +7,21 @@ body{
 }
 
 /* nav section */
-
+.card{
+    text-align: center;
+}
 .container-fluid{
-    padding: 2% 5%
+    padding: 1% 5%
+}
+.container-fluid-is1{
+    padding: 5%;
+}
+.container-fluid-is3{
+    padding: 5% 9%
 }
 .navbar-brand{
-    margin: auto;
-    font-family: 'Ubuntu';
-    font-size: 1.3rem;
-    font-weight: bold;
-    width: 200px;
+    margin: auto 100px;
+    width: 10%;
 }
 .nav-btn{
     margin: auto 20px;
@@ -24,21 +29,27 @@ body{
 .nav-btn:hover{
     background-color: rgb(187, 184, 184);
 }
-
+.nav-item{
+    border: auto 300px;
+    margin:auto 8px;
+}
+.bi{
+    font-size: 25px;
+}
+.profile-icon{
+    width: 8%;
+}
+.search-bar{
+     margin:auto 8px;
+}
 /* info section 1 */
-.container-fluid-is1{
-    padding: 12%
-}
-.container-fluid-is3{
-    padding: 5% 9%
-}
 .is1-image{
     width: 90%;
     fill: black;
 }
 .big-heading {
     font-family: 'Montserrat-black', sans-serif;
-    font-size: 3rem;
+    font-size: 3.4rem;
     line-height: 1.5;
     font-weight: 900;
     text-align: left;
@@ -62,6 +73,7 @@ body{
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: solid;
     margin:auto 60px;
     /* background: none; */
 }

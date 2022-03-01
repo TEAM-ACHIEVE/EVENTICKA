@@ -1,5 +1,5 @@
 // treanding 
-
+// slider controller 
 const $cantrending = document.getElementById("trending-btn");
 $cantrending.addEventListener("click", trending);
 
